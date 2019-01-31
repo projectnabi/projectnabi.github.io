@@ -1,2 +1,2 @@
-# .github.io
+# Nabi
 landing page for project Nabi
