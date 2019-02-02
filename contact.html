@@ -16,13 +16,41 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
-    <nav class="d-flex p-2 shadow-sm p-3 mb-5 bg-white rounded">
+<body class =  "bg-light">
+    <nav class="d-flex shadow-sm mb-5 bg-white rounded">
         <a href="index.html" class="flex-grow-1 p-2">Nabi</a>
         <a href="about.html" class="p-2">about</a>
         <a href="contact.html" class="p-2">contact</a>
     </nav>
 
+    <main  class="contact">
+        
+        <form class = "shadow p-5 mb-5 bg-white rounded" action="https://formspree.io/charlyecastro@gmail.com" method="POST">
+            <h1 class = "pb-3"> Lets get in touch!</h1>
+            <div class="form-group">
+                <label for="name">name</label>
+                <input type="name" 
+                name = "name"
+                class="form-control" id="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email </label>
+                <input type="email" 
+                name = "email"
+                class="form-control" id="email" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea  
+                name = "message"
+                class="form-control" id="message" rows="6"></textarea>
+              </div>
+
+            <button type="submit" class="btn btn-dark" value="Send">Submit</button>
+        </form>
+    </main>
 </body>
 
 </html>
