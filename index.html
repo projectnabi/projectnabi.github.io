@@ -26,47 +26,97 @@
 <body>
 
     <nav class=" shadow-sm mb-5 bg-white rounded">
-        <div class = "d-flex">
-        <a href="index.html" class="flex-grow-1 p-2">Nabi</a>
-        <a href="about.html" class="p-2">about</a>
-        <a href="contact.html" class="p-2">contact</a>
-    </div>
+        <div class="d-flex container">
+            <a href="index.html" class="flex-grow-1 p-2">Nabi</a>
+            <a href="about.html" class="p-2">about</a>
+            <a href="contact.html" class="p-2">contact</a>
+        </div>
     </nav>
 
 
-    <div class="jumbotron bg-white ">
-        <header class="row section" data-aos="fade-up" data-aos-duration="3000" data-aos-once="true">
-            <div class="col">
+    <div class="container bg-white ">
+        <header class="row " data-aos="fade-up" data-aos-duration="3000" data-aos-once="true">
+            <div class="col col-sm-12 col-md-6">
                 <h1> Headline. something catchy!</h1>
                 <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco</p>
             </div>
-            <div class=" img col">
+            <div class=" col-sm-12 col-md-6">
                 <img src="assets/artistOnPhone.jpg" />
             </div>
 
         </header>
 
         <main class="row section" data-aos="fade-up" data-aos-duration="3000" data-aos-once="true">
-            <div class=" img col">
+            <div id="beforePic" class=" img col">
                 <img src="assets/paperwork.jpg">
             </div>
-            <div class="col">
+            <div class="col-sm-12 col-md-6">
                 <h1> Problem. something Fix it!</h1>
                 <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco</p>
 
             </div>
+            <div id="afterPic" class=" img col-sm-12 col-md-6">
+                <img src="assets/paperwork.jpg">
+            </div>
         </main>
     </div>
-    <footer class=" bg-light">
-        <div class = "container">
-        <p>contact us</p>
-        <p>something and something</p>
-        <p>footer stuff</p>
+    <div class="container" data-aos="fade-up" data-aos-duration="3000" data-aos-once="true">
+        <div class="row section ">
+            <div class="col-sm-12 col-md-4 pad">
+                <div class="card ">
+                    <div class="card-body shadow">
+                        <img src="assets/road-split.svg" />
+                        <h5 class="card-title mt-4">Project Breakdown</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 pad">
+                <div class="card">
+                    <div class="card-body shadow">
+                        <img class="" src="assets/bell-ring-alarm.svg" height="20px">
+                        <h5 class="card-title mt-4">Reminders</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 pad">
+                <div class="card ">
+                    <div class="card-body shadow">
+                        <img src="assets/gamepad.svg">
+                        <h5 class="card-title mt-4">Gamification</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class = "container">
+    <main class="row section " data-aos="fade-up" data-aos-duration="3000" data-aos-once="true">
+        <div id="callPic" class=" img col">
+            <img src="assets/girlCalling.jpg">
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <h1> Have Questions?</h1>
+            <p class="pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco</p>
+            <button class = "btn btn-dark"> Connect </button>
+
+        </div>
+    </main>
+</div>
+    </div>
+    <footer class=" bg-light">
+        <div class="container">
+            <p>contact us</p>
+            <p>something and something</p>
+            <p>footer stuff</p>
+        </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
