@@ -15,6 +15,10 @@ header {
     padding-top: 20%;
 }
 
+.affiliates img {
+    width : 100px
+}
+
 nav a {
     text-decoration: none;
     color: black
@@ -73,10 +77,15 @@ h1 {
     background-color: #444444
   }
 
-  .card img {
+  .feat img {
       width :70px;
       height: 70px
   }
+
+  .card img {
+    width: 100px;
+
+}
 
   #afterPic {
       display: none
@@ -84,6 +93,10 @@ h1 {
 
   footer {
       margin-top: 10%
+  }
+
+  .paddy {
+      padding-top: 10%
   }
 
 @media (max-width: 768px) {
