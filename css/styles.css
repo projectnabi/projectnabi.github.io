@@ -104,6 +104,10 @@ h1 {
       padding-top: 10%
   }
 
+  .screen img {
+      width: 100%;
+  }
+
 @media (max-width: 768px) {
     #beforePic, #callPic {
       display: none
