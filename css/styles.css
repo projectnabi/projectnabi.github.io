@@ -122,7 +122,7 @@ h1 {
   }
 
   .greenGradient {
-    background: linear-gradient(330deg, #ceeeb0, #ceeeb0, #FFFFFF);
+    background: linear-gradient(300deg, #ceeeb0, #ceeeb0, #ceeeb0, #FFFFFF);
   }
 
   .reverseGreenGradient {
@@ -173,6 +173,14 @@ h1 {
       padding-top: 5rem
   }
 
+.shaded {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.contact {
+    padding-top: 3rem;
+}
+
 @media (max-width: 768px) {
 
     .greenGradient {
@@ -207,6 +215,7 @@ h1 {
     }
 
     .contact {
+        padding-top: 3rem;
         padding-right: 0px;
         padding-left: 0px;
         height: 100vh;
@@ -216,15 +225,36 @@ h1 {
     nav{
         padding: .5rem;
     }
+
     .intro {
         padding-top: 0rem
   
-      }
+    }
+
+    .rounded {
+        box-shadow: 0 0rem 0rem rgba(0,0,0, 0);
+    }
+
+    .shaded {
+        box-shadow: 0 0rem 0rem rgba(0,0,0, 0);
+    }
+
+    .contact {
+        padding-top: 0rem;
+        padding-right: 0px;
+        padding-left: 0px;
+        height: 100vh;
+        overflow-y: hidden
+    }
 }
 
 @media (max-width: 320px) {
     body {
         overflow-y:visible
+    }
+
+    .shaded {
+        box-shadow: 0 0rem 0rem rgba(0,0,0, 0);
     }
 
     .intro {
